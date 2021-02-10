@@ -1,14 +1,46 @@
 /* css reset */
+
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    padding: 40px;
+  padding: 40px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 blockquote {
-    margin: 0 0 0 30px;
+  margin: 0 0 0 30px;
 }
-
+h1,
+h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h1 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  word-spacing: 1.5em;
+}
+blockquote {
+  font-style: italic;
+  line-height: 1.5em;
+  text-indent: 32px;
+}
+span {
+  text-decoration: line-through;
+}
+em {
+  text-transform: capitalize;
+}
+strong {
+  text-transform: uppercase;
+}
+a {
+  color: green;
+  text-decoration: none;
+}
